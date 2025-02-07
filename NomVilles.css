@@ -1,0 +1,121 @@
+
+header {
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+}
+#introduction {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    color: white;
+   
+    padding: 15px;
+}
+#introduction h1 {
+    margin: 0;
+    padding: 20px;
+}
+#introduction p {
+    margin: 0;
+    padding: 10px;
+}
+main {
+    margin: 3rem 0;
+    padding: 0 2rem;
+}
+#points-interet, 
+#lieux-artistiques {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#points-interet img, 
+#lieux-artistiques img {
+    width: 350px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: 10px auto;
+    transition: transform 2s;
+}
+
+#points-interet img:hover, 
+#lieux-artistiques img:hover {
+    transform: scale(1.33);
+}
+
+
+.fr {
+    color: black;
+    font-style: normal;
+    
+}
+
+.en {
+    color: gray;
+    font-style: italic;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 1rem 0; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+th, td {
+    border: 1px solid #ccc; 
+    width: 50px; 
+    padding: 5px;
+    text-align: center; 
+    vertical-align: middle;
+}
+th {
+    background-color: #f4f4f4; 
+}   
+a{
+    text-decoration: none; 
+    color: white; 
+}
+a:hover {
+    color: #ff6600; 
+}
+#points-interet div, 
+#lieux-artistiques div {
+    position: relative; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#points-interet img, 
+#lieux-artistiques img {
+    width: 350px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.5s ease-out;
+}
+
+#points-interet img:hover, 
+#lieux-artistiques img:hover {
+    transform: scale(1.33);
+    position: relative;
+    z-index: 10; 
+}
+body {
+    background-image: url('fond\ mer.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-size: auto; 
+
+}
