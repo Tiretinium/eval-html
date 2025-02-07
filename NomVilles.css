@@ -7,6 +7,9 @@ header {
     font-size: 40px;
     font-family: 'Arial', sans-serif;
 }
+h1 {
+    font-size: 3rem; 
+}
 #introduction {
     text-align: center;
     font-size: 30px;
